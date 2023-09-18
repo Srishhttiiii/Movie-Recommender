@@ -76,7 +76,7 @@ def predict_score(name):
     
     return recommended_movies
 
-movies_dict = pickle.load(open('movies_dict.pkl','rb'))
+movies_dict = pickle.load(open('movies_dict.pbz2','rb'))
 movies = pd.DataFrame(movies_dict)
 # Similarity = pickle.load(open('similarity.pkl','rb'))
 
