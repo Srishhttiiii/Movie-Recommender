@@ -5,3 +5,4 @@ pickle
 requests
 operator
 scipy
+scikit-learn
