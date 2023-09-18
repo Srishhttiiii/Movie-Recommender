@@ -9,6 +9,7 @@ import operator
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.neighbors import NearestNeighbors
 from scipy import spatial
+import bz2
 
 
 def Similarity(movieId1, movieId2):
