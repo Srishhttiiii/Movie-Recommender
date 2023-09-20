@@ -83,7 +83,7 @@ with bz2.open('movies_dict.pbz2', 'rb') as movies:
 movies = pd.DataFrame(loaded_data)
 # Similarity = pickle.load(open('similarity.pkl','rb'))
 
-st.title('Movie Recommender System')
+st.title('WATCH WIZ')
 
 selected_movie_name = st.selectbox(
     'Enter movie name',
